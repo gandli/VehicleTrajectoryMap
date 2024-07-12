@@ -6,15 +6,15 @@ from folium.plugins import AntPath
 # 定义文件路径和车牌
 files = [
     (
-        "车辆名称++粤B21MW1-LFNA4LCA3KAX47404-有线++从20240701105605到20240711105605轨迹明细.xlsx",
+        "data/车辆名称++粤B21MW1-LFNA4LCA3KAX47404-有线++从20240701105605到20240711105605轨迹明细.xlsx",
         "粤B21MW1",
     ),
     (
-        "车辆名称++粤S9X77P-LFNA4LCA9LAX13906-有线++从20240701000022到20240711102522轨迹明细 (1).xlsx",
+        "data/车辆名称++粤S9X77P-LFNA4LCA9LAX13906-有线++从20240701000022到20240711102522轨迹明细 (1).xlsx",
         "粤S9X77P",
     ),
     (
-        "车辆名称++粤SKE099-LS1D221B0L0618428-有线++从20240701000035到20240711103935轨迹明细.xlsx",
+        "data/车辆名称++粤SKE099-LS1D221B0L0618428-有线++从20240701000035到20240711103935轨迹明细.xlsx",
         "粤SKE099",
     ),
 ]
@@ -69,6 +69,6 @@ for (file, plate), color in zip(files, colors):
         ).add_to(m)
 
 # 保存地图到HTML文件
-m.save("combined_vehicle_trajectory_map.html")
+m.save("out/combined_vehicle_trajectory_map.html")
 
-print("地图已保存到 combined_vehicle_trajectory_map.html")
+print("地图已保存到 out/combined_vehicle_trajectory_map.html")
