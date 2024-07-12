@@ -1,11 +1,3 @@
-'''
-Author: gandli gandli@qq.com
-Date: 2024-07-11 19:03:10
-LastEditors: gandli gandli@qq.com
-LastEditTime: 2024-07-12 11:01:43
-FilePath: \VehicleTrajectoryMap\vehicle_trajectory_map.py
-Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
-'''
 import pandas as pd
 import folium
 from coord_convert.transform import bd2wgs  # https://pypi.org/project/coord-convert/
