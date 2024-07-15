@@ -69,6 +69,6 @@ for (file, plate), color in zip(files, colors):
         ).add_to(m)
 
 # 保存地图到HTML文件
-m.save("out/combined_vehicle_trajectory_map.html")
+m.save("ouputp/combined_vehicle_trajectory_map.html")
 
-print("地图已保存到 out/combined_vehicle_trajectory_map.html")
+print("地图已保存到 ouputp/combined_vehicle_trajectory_map.html")
